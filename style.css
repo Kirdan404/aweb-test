@@ -1,0 +1,116 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url("./images/ceiling.jpg");
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body::after {
+    content: "";
+    background: #1f4164;
+    position: fixed;
+    opacity: .85;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: all .25s ease;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+}
+
+h2, h3 {
+    color: #0073e6;
+    text-align: center;
+}
+
+.basic-p {
+    margin: 20px;
+    padding: 10px;
+    text-indent: 20px;
+    text-align: justify;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(63, 63, 160);
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #3a3b7e;
+}
+
+td {
+    padding: 10px;
+}
+
+.td-img {
+    text-align: center;
+}
+
+.type-details {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.type-details li {
+    margin: 5px 0;
+}
+
+.link-container {
+    text-align: center;
+}
+
+.file-pdf-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.file-pdf-link:hover {
+    text-decoration: underline;
+}
+
+.ceiling-img {
+    float: left;
+    max-width: 300px;
+    height: auto;
+    margin: 10px;
+}
+
+.advantages-numeric-list {
+    margin: 20px;
+    padding: 30px;
+    text-align: justify;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(63, 63, 160);
+}
+
+.advantages-numeric-list li {
+    margin: 10px 0;
+}
+
+.intro-section, .appearance-section, .perforation-section, .advantages-section {
+    padding: 20px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 8px;
+    max-width: 800px;
+}
